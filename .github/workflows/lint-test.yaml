@@ -5,7 +5,7 @@ on:
       - "main"
     paths:
       - '**.md'
-      - '**.txt'
+      - '**.yaml'
 jobs:
   check-bats-version:
     runs-on: ubuntu-latest
